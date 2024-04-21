@@ -2,16 +2,15 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    border-color: #b0b7c0;
 }
 Body{
-    background-color: #ffffff;
+    background-color: #f2fbf3;
 }
 
 header {
     padding: 30px 30px 15px 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #665a16;
+    background-color: #d0ceb7;
     color: #000000;
 }
 header h1 {
@@ -57,7 +56,7 @@ a{
 .about.me{
     display: inline-block;
     width: 200px;
-    border-right: 5px solid green;
+    border-right: 5px solid rgb(59, 94, 59);
     Padding: 10px 10px 150px 10px;
     margin: 0px 10px 10px -30px; 
     font-size: 35px; 
@@ -73,9 +72,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 .work{
     width: 200px;
-    border-right: 5px solid green;
-    Padding: 10px 10px 600px 10px;
-    margin: 40px 10px 50px -30px;
+    border-right: 5px solid rgb(59, 94, 59);
+    Padding: 10px 10px 700px 10px;
+    margin: 50px 10px 50px -30px;
     font-size: 35px;  
     text-align: right;
     background-color: #ffffff;
@@ -85,9 +84,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 .contact.me{
     display: inline-block;
     width: 200px;
-    border-right: 5px solid green;
-    Padding: 10px 10px 30px 10px;
-    margin: 40px 10px 30px -30px;   
+    border-right: 5px solid rgb(59, 94, 59);
+    Padding: 0px 10px 30px 10px;
+    margin: 10px 10px 30px -30px;   
     font-size: 35px;
     text-align: right;
     background-color: #ffffff;
@@ -99,10 +98,9 @@ footer{
     
 }
 
-    footer ul{
+footer ul{
     display:inline-block;
     list-style-type: none;
-    
 }
 
 footer ul li{
