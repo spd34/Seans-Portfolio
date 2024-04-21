@@ -4,6 +4,9 @@
     margin: 0px;
     border-color: #b0b7c0;
 }
+Body{
+    background-color: #ffffff;
+}
 
 header {
     padding: 30px 30px 15px 30px;
@@ -39,6 +42,7 @@ header nav ul li {
 a{
     color: #000000;
     text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .background.image{
@@ -51,35 +55,61 @@ a{
 }
 
 .about.me{
+    display: inline-block;
     width: 200px;
     border-right: 5px solid green;
     Padding: 10px 10px 150px 10px;
-    margin: 20px 10px 10px 50px; 
+    margin: 0px 10px 10px -30px; 
     font-size: 35px; 
     text-align: right;
-    background-color: #665a16;
+    background-color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 p{
-   margin-left: 300px;
+display: inline-block;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .work{
     width: 200px;
     border-right: 5px solid green;
     Padding: 10px 10px 600px 10px;
-    margin: 20px 10px 50px 50px;
+    margin: 40px 10px 50px -30px;
     font-size: 35px;  
     text-align: right;
-    background-color: #665a16;
+    background-color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .contact.me{
+    display: inline-block;
     width: 200px;
     border-right: 5px solid green;
     Padding: 10px 10px 30px 10px;
-    margin: 20px 10px 30px 50px;   
+    margin: 40px 10px 30px -30px;   
     font-size: 35px;
     text-align: right;
-    background-color: #665a16;
+    background-color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer{
+    display: inline-block;
+    
+}
+
+    footer ul{
+    display:inline-block;
+    list-style-type: none;
+    
+}
+
+footer ul li{
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 100px;
+    margin-left: 50px;
 }
