@@ -1,165 +1,196 @@
-* {
+ * {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-}
-Body{
-    background-color: #f2fbf3;
-}
-
-header {
-    padding: 30px 30px 15px 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #d0ceb7;
-    color: #000000;
-}
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-    background-color:#ffffff;
-    margin-left: -30px;
-    padding-right: 10px;
-    padding-left: 100px;
-}
-header nav {
-    padding-top: 20px;
-    margin-right: 100px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-
-}
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a{
-    color: #000000;
-    text-decoration: underline;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.background.image{
-    height: 500px;
+  }
+  
+  body {
+    position: relative;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    display: flex;
+    height: 80px;
     width: 100%;
-    margin-bottom: 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(52, 66, 33);
+    border-width: 5px 0px;
+    border-style: solid;
+    border-color: black
+  }
+  
+  header h1 {
+    margin-left: 12px;
+    color: black;
+    padding: 5px 10px;
+    border: solid black;
+    border-width: 4px 4px 4px 4px;
+    background-color: white;
+  }
+  
+  li {
+    margin-right: 12px;
+    display: inline-block;
+  }
+  
+  header a {
+    color: white;
+  }
+  
+
+  header a:hover {
+    border: 1px solid white;
+    color: white;
+  }
+  
+  figure {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 150px;
     background-image: url("../Assets/pngtree-abstract-lines-composition-background-with-diagonal-olive-green-texture-image_13778525.png");
     background-size: cover;
     background-position: center;
-}
-
-section {
-    display: flex;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-section h1{
-    display: inline-block;
-    border-right: 5px solid rgb(59, 94, 59);
-    margin: 50px;
-    padding: 30px;
-    text-align: right;
-    font-size: 35px; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-}
-
-p{
-    margin-left: 10px;
-    margin-right: 150px;
-    margin-top: 50px;
-}
-
-aside{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-}
-
-.box:hover{
-    color: rgb(171, 207, 100);
-}
-
-.box.one{
-    height: 500px;
-    width: 1400px;
-    margin: 10px;
-    background-image: url(../Assets/waves.png);
-    background-size: 100%;
-    border-style: solid;
-    border-width: 5px;
-}
-
-.box.two{
-    height: 250px;
-    width: 690px;
-    margin: 10px;
-    background-image: url(../Assets/led\ wall.png);
-    background-size: 100%;
-    border-style: solid;
-    border-width: 5px;
-}
-.box.three{
-    height: 250px;
-    width: 690px;
-    margin: 10px;
-    background-image: url(../Assets/calculator.png);
-    background-size: 100%;
-    border-style: solid;
-    border-width: 5px;
-}
-
-.box.four{
-    height: 250px;
-    width: 690px;
-    margin: 10px;
-    background-image: url(../Assets/puzzle\ piece.png);
-    background-size: 100%;
-    background-position-x: center;
-    background-position-y: center;
-    border-style: solid;
-    border-width: 5px;
-}
-
-.box.five{
-    height: 250px;
-    width: 690px;
-    margin: 10px;
-    background-image: url(../Assets/globe.png);
-    background-size: 100%;
-    border-style: solid;
-    border-width: 5px;
-}
-
-footer h1{
-    display: inline-block;
-    border-right: 5px solid rgb(59, 94, 59);
-    text-align: right;
-    font-size: 35px; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-footer ul{
-    display:inline-block;
-    list-style-type: none;
-}
-
-footer ul li{
-    display: inline-block;
-    text-decoration: underline;
-    font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 80px;
+  }
+  
+  figure h4 {
+    color: white;
+    margin-left: 12px;
     margin-right: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-}
+    margin-top: 75px;
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    margin-left: 25px;
+    margin-top: 12px;
+  }
+  
+  section h1 {
+    display: flex;
+    margin-left: 12px;
+    width: 30%;
+    text-align: right;
+  }
+  
+  .aboutMe p,
+  .contact nav {
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-left: 12px;
+    width: 70%;
+    border-left: 10px solid black;
+  }
+  
+  .aboutMe p,
+  .contact li a {
+    font-size: large;
+    line-height: 1.5;
+  }
+  
+  .contact a {
+    color: black;
+    margin: 70px;
+  }
+  
+  .work div {
+    display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-left: 12px;
+    width: 70%;
+    border-left: 10px solid black;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  
+  .contact nav {
+    display: flex;
+    justify-content: center;
+    align-content:space-between;
+  }
+  
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 152px;
+    min-width: 185px;
+    border: solid rgb(52, 66, 33);
+    border-width: 5px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  article:hover,
+  article:focus {
+    opacity: 85%;
+  }
+  
+  .article-dbl {
+    width: 95%;
+  }
+  
+  .article-sgl {
+    width: 45%;
+  }
+  
+  article h4,
+  article h5 {
+    text-indent: 8px;
+    text-align: left;
+    width: 180px;
+    background-color: rgb(52, 66, 33);
+    color: white;
+  }
+  
+  article h5 {
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-bottom: 2px;
+  }
+  
+  footer {
+    height: 100px;
+  }
+  
+  /* add background images to the various sections */
+  
+
+  .calculator {
+    background-image: url(../Assets/calculator.png);
+  }
+  
+  .ledwall {
+    background-image: url(../Assets/led\ wall.png);
+  }
+  
+  .puzzle {
+    background-image: url(../Assets/puzzle\ piece.png);
+  }
+  
+  .globe {
+    background-image: url(../Assets/globe.png);
+  }
+  
+  .surf {
+    background-image: url(../Assets/waves.png);
+  }
+  
 
 
 
